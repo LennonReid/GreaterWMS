@@ -101,7 +101,12 @@ docker-compose up -d
 # baseurl GreaterWMS/templates/public/statics/baseurl.txt
 docker-compose restart
 ~~~
+Should you be utilizing MacOS, please execute the following command in your terminal prior to running 'docker-compose up'
 
+~~~shell
+chmod +x backend_start.sh 
+chmod +x web_start.sh
+~~~
 <h4>
   <a href="https://www.56yhz.com/win_10.html">Windows X64</a>
 </h4>

@@ -99,7 +99,11 @@ docker-compose up -d
 # baseurl GreaterWMS/templates/public/statics/baseurl.txt
 docker-compose restart
 ~~~
-
+在MAC上，先执行以下代码再执行`docker-compose up`
+~~~shell
+chmod +x backend_start.sh 
+chmod +x web_start.sh
+~~~
 <h4>
   <a href="https://www.56yhz.com/zh/win_10.html">Windows X64</a>
 </h4>
